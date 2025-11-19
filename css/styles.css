@@ -1,0 +1,120 @@
+.nav {
+  display: flex;
+  align-items: center; /* выравнивает по центру */
+  justify-content: space-between; /* лого слева, ссылки справа */
+  padding: 15px 150px 30px 150px;
+}
+header {
+  width: 1530px;
+  height: 90px;
+  background-color: #ffffff;
+}
+.nav__logo {
+  display: inline-block; /* ← добавили */
+  color: #1b1a1a;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: 22px;
+  line-height: 36px;
+  margin-top: 5px; /* теперь опускается */
+}
+.nav__logo span {
+  font-weight: 400;
+}
+.nav__item {
+  list-style: none;
+}
+.list__style {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.list__style ul li a {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.nav__links {
+  display: flex;
+  gap: 40px; /* расстояние между ссылками */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav__links a {
+  text-decoration: none;
+  color: #1b1a1a;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.nav__cta {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 13px 29px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 650;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 150px;
+  margin: 0;
+  background-color: #f5f3f0;
+  gap: 0;
+  margin-top: -20px;
+}
+.hero__content {
+  flex: 0 0 auto;
+  width: 509px;
+  padding-right: 80px;
+}
+.hero__logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #645c55;
+  margin: 0 0 20px 0;
+}
+.hero__content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #1b1a1a;
+  margin: 0 0 20px 0;
+}
+.hero__text {
+  color: #403e3b;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 0 30px 0;
+}
+.Read_more {
+  color: #1b1a1a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0;
+}
+.hero__image {
+  flex: 0 0 50%;
+  width: 50vw;
+  height: 100%;
+  min-height: 600px;
+  border-radius: 0;
+  object-fit: cover;
+}

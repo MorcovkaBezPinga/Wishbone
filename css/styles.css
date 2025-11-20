@@ -301,3 +301,24 @@ header {
   width: 285px;
   height: 48px;
 }
+.Featured_projects {
+  width: 1510px;
+  height: 918px;
+}
+.Featured_line {
+  margin-top: 320px;
+  margin-left: 136px;
+  font-family: "Popins", sans-serif;
+}
+.Featured_text {
+  transform: scale(1, 1); /* первый параметр — ширина, второй — высота */
+  font-stretch: condensed; /* сжимает текст по ширине */
+  max-width: 400px;
+  word-wrap: break-word;
+  font-size: 20px;
+  color: #645c55;
+}
+.Featured_title {
+  font-size: 30px;
+  font-weight: 200;
+}

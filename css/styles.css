@@ -162,22 +162,65 @@ header {
   height: 50px;
   font-family: "Popins", sans-serif;
 }
-.process_content {
-  margin-top: 320px;
-}
-.process_content p {
-  margin-top: -20px;
-  display: flex;
-  justify-content: center;
+.process_text {
+  margin-left: 720px;
+  margin-top: 280px;
+  font-family: "Popins", sans-serif;
   color: #645c55;
-  font-family: "Popins", sans-serif;
 }
-.process_content h2 {
-  display: flex;
-  justify-content: center;
-  color: #1b1a1a;
+.process_heading {
+  margin-left: 655px;
+  margin-top: -5px;
   font-family: "Popins", sans-serif;
+  color: #1b1a1a;
   font-weight: 200;
 }
-.process_image {
+.process_container {
+  display: flex;
+  justify-content: flex-start; /* ставит все три слева */
+  gap: 150px; /* расстояние между карточками */
+  margin-left: 40px; /* если нужно сдвинуть весь блок левее/правее */
+  margin-left: 230px;
+  margin-top: 50px;
+  font-family: "Popins", sans-serif;
+}
+
+.process_card {
+  width: 260px; /* важное! регулирует перенос текста как в макете */
+  text-align: center;
+}
+
+.process_card img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.small-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.big-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+.interier_image {
+  width: 1520px;
+  height: 600px;
+}
+.text_base {
+  color: #403e3b;
+  font-family: "Popins", sans-serif;
+  margin-left: 1090px;
+  margin-top: -314px;
+}
+.text_base_lorem {
+  margin-left: 1090px;
+  width: 285px;
+  height: 40px;
+  margin-top: -10px;
+  color: #645c55;
+  font-family: "Popins", sans-serif;
 }

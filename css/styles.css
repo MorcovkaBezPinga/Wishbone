@@ -228,7 +228,7 @@ header {
   margin-top: 100px;
 }
 .clients-section {
-  width: 100%;
+  width: 1374px;
   background-color: #2f2f2f;
   color: #fff;
 
@@ -304,6 +304,7 @@ header {
 .Featured_projects {
   width: 1510px;
   height: 918px;
+  background-color: #f7f7f7;
 }
 .Featured_line {
   margin-top: 320px;
@@ -321,4 +322,152 @@ header {
 .Featured_title {
   font-size: 30px;
   font-weight: 200;
+}
+.featred_images {
+  width: 379px;
+  height: 460px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-left: 136px;
+}
+.projects {
+  margin-left: 660px;
+  font-family: "Popins", sans-serif;
+}
+.our_team_container {
+  margin-left: 136px;
+  width: 378px;
+  height: 492px;
+  font-family: "Popins", sans-serif;
+  margin-top: 100px;
+}
+.our_team_container h2 {
+  color: #403e3b;
+  font-family: "Popins", sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+}
+.our_team_text {
+  color: #645c55;
+}
+.our_team {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.our_team_txt {
+  color: #1b1a1a;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.our_team_images {
+  display: grid;
+  grid-auto-flow: column; /* создаем колонки */
+  grid-auto-rows: auto;
+  row-gap: 25px;
+  column-gap: 90px; /* расстояние между колонками */
+
+  justify-content: start; /* выравниваем левее */
+  transform: translate(-300px, 70px); /* сдвигаем левее и ниже */
+  font-family: "Popins", sans-serif;
+}
+
+/* 1-я колонка — первые 3 карточки */
+.team_card:nth-child(1),
+.team_card:nth-child(2),
+.team_card:nth-child(3) {
+  grid-column: 1;
+}
+
+/* 2-я колонка — последние 2 карточки */
+.team_card:nth-child(4),
+.team_card:nth-child(5) {
+  grid-column: 2;
+}
+
+/* Внутри каждой карточки — картинка слева, текст справа */
+.team_card {
+  display: flex;
+  align-items: center; /* вертикальное выравнивание */
+  gap: 20px; /* расстояние между фото и текстом */
+}
+
+/* Сделать фото чуть меньше */
+.team_card img {
+  width: 70px; /* можно менять на любое нужное значение */
+  height: auto;
+  object-fit: cover;
+}
+.start_footer {
+  height: 314px;
+  background-color: #cec4bc; /* фон */
+  display: flex;
+  align-items: flex-end; /* выравнивание по низу секции */
+  justify-content: space-between; /* слева текст, справа кнопка */
+  padding-left: 140px; /* сдвиг левого текста */
+  padding-right: 60px; /* отступ правого текста от края */
+  padding-bottom: 100px; /* отступ от низа */
+  font-family: "Popins", sans-serif;
+}
+
+.start_footer .start_text p {
+  color: #645c55;
+  font-size: 18px;
+  margin: 0 0 10px 0; /* небольшой отступ снизу перед заголовком */
+}
+
+.start_footer .start_text h2 {
+  color: #1b1a1a;
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0;
+  width: 576px;
+  height: 114px;
+  font-weight: 200;
+}
+
+.start_footer .start_button p {
+  color: #1b1a1a;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0;
+  margin-top: -90px;
+}
+footer {
+  height: 190px;
+}
+.footer_text {
+  margin-left: 136px;
+  margin-top: 120px;
+  font-family: "Popins", sans-serif;
+}
+.text_lorem {
+  color: #1b1a1a;
+  font-weight: 600;
+}
+.text_lorem span {
+  color: #1b1a1a;
+  font-weight: 400;
+}
+.footer_text p {
+  color: #645c55;
+  width: 450px;
+  height: 40px;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding-right: 40px;
+
+  transform: translate(-30px, 10px); /* -30px = чуть левее, 10px = чуть ниже */
+}
+
+.navigation_image {
+  width: 20px;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
 }
